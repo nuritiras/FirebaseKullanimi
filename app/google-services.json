@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793550282536",
+    "project_id": "fir-kullanimi-fce58",
+    "storage_bucket": "fir-kullanimi-fce58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793550282536:android:bf63eb39fa42b513b87a1d",
+        "android_client_info": {
+          "package_name": "tr.com.nuritiras.firebasekullanimi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3hpsNcHMytWhoUtf25ha1DTM7Se2QBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
