@@ -11,32 +11,29 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="42dp"
         android:onClick="girisOnClick"
         android:text="Giriş Yap"
-        app:layout_constraintEnd_toEndOf="@+id/editTextGirisEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextGirisEmailAddress" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="229dp" />
 
     <EditText
         android:id="@+id/editTextGirisEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
         android:ems="10"
+        android:hint="E-Posta:"
         android:inputType="textEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/editTextGirisPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextGirisPassword" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="75dp" />
 
     <EditText
         android:id="@+id/editTextGirisPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
         android:ems="10"
+        android:hint="Parola:"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="144dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
